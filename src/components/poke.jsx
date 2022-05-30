@@ -9,8 +9,8 @@ export function Pokemon(props) {
   const [click,setclick] = useState(false)
 
   const pokemon = [
-    { Url: '', Name: 'Charizar', Tipo: '' },
-    { Url: '', Name: 'Pikachu', Tipo: '' },
+    { Url: '', Name: 'Charizar', Tipo: 'fogo' },
+    { Url: '', Name: 'Pikachu', Tipo: 'raio' },
     { Url: '', Name: '', Tipo: '' },
     { Url: '', Name: '', Tipo: '' },
     { Url: '', Name: '', Tipo: '' },
