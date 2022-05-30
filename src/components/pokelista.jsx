@@ -5,25 +5,25 @@ import React from "react";
 
 export function Pokelist() {
 
-    const pokemon = [
-        { Url: '', Name: 'Charizar', Tipo: 'Fogo' },
-        { Url: '', Name: 'Pikachu', Tipo: 'Raio' },
-        { Url: '', Name: '', Tipo: '' },
-        { Url: '', Name: '', Tipo: '' },
-        { Url: '', Name: '', Tipo: '' },
-        { Url: '', Name: '', Tipo: '' },
-        { Url: '', Name: '', Tipo: '' },
-        { Url: '', Name: '', Tipo: '' },
-        { Url: '', Name: '', Tipo: '' },
+    const pokemons = [
+        { url: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/006_f4.png', name: 'Charizar', tipo: 'Fogo' },
+        { url: 'https://w7.pngwing.com/pngs/633/903/png-transparent-hey-you-pikachu-pokemon-go-ash-ketchum-pikachu-video-game-fictional-character-cartoon-thumbnail.png', name: 'Pikachu', tipo: 'Raio' },
+        { url: '', name: '', tipo: '' },
+        { url: '', name: '', tipo: '' },
+        { url: '', name: '', tipo: '' },
+        { url: '', name: '', tipo: '' },
+        { url: '', name: '', tipo: '' },
+        { url: '', name: '', tipo: '' },
+        { url: '', name: '', tipo: '' },
     ]
-
-    const nomePokemon = pokemon.map( 
-        c => <p>{c.Name}</p>
-        )
 
     return (
         <div className="poke">
-            <Pokemon Name={nomePokemon}/>
+            {
+                pokemons.map((pokemon) => (
+                    <Pokemon name={pokemon.name} subtitle={pokemon.tipo} img={pokemon.url}/>
+                ))
+            }
         </div>
     )
 }
