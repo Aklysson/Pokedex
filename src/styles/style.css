@@ -16,6 +16,7 @@
 
 
 .card{
+ 
     width: 24%;
     background-color: rgb(56, 56, 56);
     margin-bottom: 30px;
@@ -25,12 +26,22 @@
     min-height: fit-content;
     padding: 20px;
     cursor: pointer;
+    transition: all .5s;
+    
+   
+    
 }
+
+#front{
+    transform: rotateY(180deg);
+}
+
+
 
 img{
     max-width: 200px;
     max-height: 150px;
-    
+    background-color: rgb(255, 255, 255);
 }
 
 .poke{
@@ -39,6 +50,7 @@ img{
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    
     
 }
 

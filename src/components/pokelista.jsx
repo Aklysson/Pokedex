@@ -6,16 +6,18 @@ import React from "react";
 export function Pokelist() {
 
     const pokemons = [
-        { url: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/006_f4.png', name: 'Charizar', tipo: 'Fogo' },
-        { url: 'https://w7.pngwing.com/pngs/633/903/png-transparent-hey-you-pikachu-pokemon-go-ash-ketchum-pikachu-video-game-fictional-character-cartoon-thumbnail.png', name: 'Pikachu', tipo: 'Raio' },
-        { url: '', name: '', tipo: '' },
-        { url: '', name: '', tipo: '' },
-        { url: '', name: '', tipo: '' },
-        { url: '', name: '', tipo: '' },
-        { url: '', name: '', tipo: '' },
-        { url: '', name: '', tipo: '' },
-        { url: '', name: '', tipo: '' },
+        { url: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png', name: 'Charizar', tipo: 'Fogo' },
+        { url: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png', name: 'Pikachu', tipo: 'Raio' },
+        { url: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png', name: 'Squirtle', tipo: 'Água' },
+        { url: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png', name: 'Bulbasaur', tipo: 'Planta' },
+        { url: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png', name: 'Caterpie', tipo: 'inseto' },
+        { url: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png', name: 'Pidgeotto', tipo: 'Normal' },
+        { url: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/039.png', name: 'Jigglypuff', tipo: 'Fada' },
+        { url: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/050.png', name: 'Diglett', tipo: 'Ground' },
+        { url: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/065.png', name: 'Alakazam', tipo: 'Psíquico' },
     ]
+
+    
 
     return (
         <div className="poke">
