@@ -16,31 +16,30 @@
 
 
 .card{
- 
-    width: 24%;
+    padding: 1rem;
     background-color: rgb(56, 56, 56);
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
-    min-width: 200px;
-    min-height: fit-content;
-    padding: 20px;
+    min-width: 12rem;
     cursor: pointer;
     transition: all .5s;
-    
-   
-    
+    transform-style: preserve-3d;
+
+
 }
 
-#front{
+#back{
     transform: rotateY(180deg);
 }
 
 
 
 img{
-    max-width: 200px;
-    max-height: 150px;
+    max-width: 15rem;
+    max-height: 20rem;
+    min-width: 15rem;
+    min-height: 15rem;
     background-color: rgb(255, 255, 255);
 }
 
@@ -49,8 +48,13 @@ img{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-    
+    gap: 3rem;
+    max-width: 70rem;
+    padding: 0 auto;
+    margin: 3rem auto;
+    background-color: rgba(255, 255, 255, 0.795);
+    padding-top: 1rem;
+    border-radius: 1%;
     
 }
 
