@@ -39,6 +39,11 @@
     transform: rotateY(180deg);
 }
 
+#back img{
+    transform: rotateY(180deg);
+
+}
+
 
 
 img{
