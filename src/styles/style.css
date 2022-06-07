@@ -25,11 +25,17 @@
     cursor: pointer;
     transition: all .5s;
     transform-style: preserve-3d;
-
-
 }
 
 #back{
+    transform: rotateY(180deg);
+}
+
+#back h5 {
+    transform: rotateY(180deg);
+}
+
+#back h6 {
     transform: rotateY(180deg);
 }
 
